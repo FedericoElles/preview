@@ -1,0 +1,33 @@
+///*----------------------------------*\
+//  #GLOBAL
+//\*----------------------------------*/
+
+
+// Base typographical styles and baseline grid.
+$base-font-size:    15px;
+$base-line-height:  22px;
+
+$base-font-size-l:  18px;
+$base-line-height-l:  27px;
+
+
+$base-font-size-xxl:  26px;
+
+$base-font-size-s:  12px;
+
+$base-font-size-xs: 11px;
+
+
+// Standardise some UI treatments.
+$base-radius:       3px;
+
+$base-transition:   0.333333333s;
+
+// Do not modify: reassigning variables for use throughout the project.
+$base-spacing-unit: $base-line-height/2;
+$spacing-unit:      $base-spacing-unit;
+
+// Mobile
+
+$breakpoint-lg: 600px; //below: responsive
+$breakpoint-lg-max: 959px;

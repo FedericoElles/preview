@@ -1,0 +1,72 @@
+@import "../s/settings.global";
+
+///*----------------------------------*\
+//  #OVERWRITRES
+//\*----------------------------------*/
+
+//
+$base-line-height:  26px;
+
+
+///*----------------------------------*\
+//  #COLORS
+//\*----------------------------------*/
+
+// WiWo Red
+$color-brand-primary:               #ee7000;
+
+// Box background
+$color-background:                  #eee;
+
+// Font color
+$color-page-text:                   #333;
+
+//breaking news box background
+$color-breakingnews:			        	#bb1a35;
+
+//font color
+$color-ui:                          #e4e4e4;
+
+//text color in gallery
+$color-grey:                        #666;
+
+//footer background
+$color-bg-footer:                   #292929;
+
+//border color footer box
+$color-grey-dark:                   #424242;
+
+//divider line color
+$color-grey-line:                   #CCCCCC;
+
+//u-inverted
+$color-inverted:                    #9E9E9E;
+
+//overline text style
+$overline-text-transform:           uppercase;
+
+$color-white:                       #fff;
+$color-black:                       #000;
+
+///*----------------------------------*\
+//  #FONTS
+//\*----------------------------------*/
+
+$font-family: Arial,Helvetica,Roboto,Sans-Serif;
+
+@font-face {
+  font-family: 'Publico Medium Roman';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.hyperdev.com/51867218-bc68-4ace-8567-f49495a60eb2%2Fpublicoheadline-medium-web.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Publico Roman';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.hyperdev.com/51867218-bc68-4ace-8567-f49495a60eb2%2Fpublicotext-roman-web.woff) format('woff');
+}
+
+$font-family-special: "Publico Roman",HiraMinProN-W3,Droid Serif,Times New Roman,Serif;
+$font-family-special-bold: "Publico Medium Roman",HiraMinProN-W3,Droid Serif,Times New Roman,Serif;
