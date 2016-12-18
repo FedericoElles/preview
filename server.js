@@ -25,11 +25,13 @@ app.get('/style.css', function(req, res){
 });
 
 app.get('/', function (req, res) {
-    var json =  content.get('page');
-    var context = {};
-    context.json = JSON.stringify(json, undefined, 2);
-    context.type = 'index';
-    res.render('home', context);
+  var context = {};
+  context.type = 'index';
+  content.get('page').then(function(content){
+    context.json = JSON.stringify(content, undefined, 2);
+    res.render('home', context);  
+  });
+    
 });
 
 

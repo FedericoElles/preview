@@ -16,7 +16,8 @@
 		"compression": "^1.6.2",
 		"cookie-parser": "^1.4.3",
 		"contentful": "^3.7.1",
-		"q": "^2.0.3"
+		"q": "^2.0.3",
+		"marked": "^0.3.6"
 	},
 	"engines": {
 		"node": "6.9.1"
