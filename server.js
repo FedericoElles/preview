@@ -6,6 +6,8 @@ var compression = require('compression');
 
 var app = express();
 
+var content = require('./content.js');
+
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(compression());
@@ -23,7 +25,11 @@ app.get('/style.css', function(req, res){
 });
 
 app.get('/', function (req, res) {
-    res.render('home');
+    var json =  content.get('page');
+    var context = {};
+    context.json = JSON.stringify(json, undefined, 2);
+    context.type = 'index';
+    res.render('home', context);
 });
 
 
